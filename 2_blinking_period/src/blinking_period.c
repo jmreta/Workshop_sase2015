@@ -63,12 +63,11 @@
  */
 
 /*==================[inclusions]=============================================*/
-#include "../../3_blinking_tec_period/inc/blinking_tec_period.h"    /* <= own header */
-
 #include "os.h"               /* <= operating system header */
 #include "ciaaPOSIX_stdio.h"  /* <= device handler header */
 #include "ciaaPOSIX_string.h" /* <= string header */
 #include "ciaak.h"            /* <= ciaa kernel header */
+#include "blinking_period.h"    /* <= own header */
 
 /*==================[macros and definitions]=================================*/
 #define TEC1_MASK         0B0001
